@@ -1,13 +1,16 @@
 <template>
+  <header>
   <div id="banner">
       <img src="../../public/logov2.png">
     <div>
       <span>Fizjoterpia</span>
     </div>
   </div>
+  </header>
 </template>
 
 <script>
+
 export default {
   name: "AppBanner"
 }
@@ -28,6 +31,7 @@ export default {
 #banner span{
   font-family: PermanentMarker;
   font-size: 50px;
+  text-align: center;
 }
 
 #banner{
