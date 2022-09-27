@@ -21,7 +21,8 @@ export default {
     AppBanner,
     AppMenu,
     AppContent,
-    AppFooter
+    AppFooter,
+
   }
 }
 

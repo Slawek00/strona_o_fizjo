@@ -1,9 +1,9 @@
 <template>
   <header>
   <div id="banner">
-      <img src="../../public/logov2.png">
+      <img src="../assets/logov2.png">
     <div>
-      <span>Fizjoterpia</span>
+      <span>Fizjoterapia</span>
     </div>
   </div>
   </header>

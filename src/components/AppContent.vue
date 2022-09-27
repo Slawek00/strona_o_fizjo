@@ -52,12 +52,27 @@
   </div>
 </template>
 
+
+
 <script>
+
 export default {
   name: "AppContent"
 }
+
 </script>
+
+
 
 <style scoped>
 
+@font-face {
+  font-family: "Akaya";
+  src: local("AkayaTelivigala"),
+  url(../fonts/AkayaTelivigala-Regular.ttf) format("truetype");
+}
+
+h3{
+  font-family: Akaya;
+}
 </style>

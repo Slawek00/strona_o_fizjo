@@ -1,7 +1,7 @@
 <template>
     <nav class = "navbar navbar-expand-lg navbar-light bg-success bg-gradient sticky-top">
       <div class="container-fluid">
-        <a href="#" class = "navbar-brand text-white">Fizjoterapia</a>
+        <h2 href="#" class = "navbar-brand text-white">Fizjoterapia</h2>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,28 +17,34 @@
     </nav>
 </template>
 
+
+
 <script>
 
 export default {
   name: "AppMenu",
 }
+
 </script>
 
+
+
 <style scoped>
+
 @font-face {
   font-family: "PermanentMarker";
   src: local("PermanentMarker"),
   url(../fonts/PermanentMarker-Regular.ttf) format("truetype");
 }
 
-.container-fluid a{
+.container-fluid{
   font-family: PermanentMarker;
   font-size: 20px;
 }
 
+
 .container-fluid a:hover{
   color: whitesmoke;
 }
-
 
 </style>
