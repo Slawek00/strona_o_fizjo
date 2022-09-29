@@ -1,9 +1,9 @@
 <template>
   <footer>
     <div id="footer">
-      <div>
-        <center><a href="https://github.com/Slawek00/Slawek00"><img src="../assets/github.png"></a>
-          <a href="https://www.linkedin.com/in/s%C5%82awomir-ja%C5%82ojda-224948243/"><img src="../assets/linkedin.png"></a></center>
+      <div class="d-flex justify-content-center">
+        <a href="https://github.com/Slawek00/Slawek00"><img src="../assets/github.png"></a>
+          <a href="https://www.linkedin.com/in/s%C5%82awomir-ja%C5%82ojda-224948243/"><img src="../assets/linkedin.png"></a>
       </div>
       <h6>Stronę stworzył: Sławomir Jałojda</h6>
     </div>

@@ -8,9 +8,9 @@
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav ms-auto head" >
             <li class="nav-item"><a class="nav-link" href="#">Czym jest fizjoterapia?</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Historia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kariera zawodowa</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Najpopularniejsze metody leczenia</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">O autorze</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">O stronie</a></li>
           </ul>
         </div>
       </div>

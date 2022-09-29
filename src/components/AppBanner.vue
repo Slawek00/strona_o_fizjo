@@ -1,11 +1,11 @@
 <template>
   <header>
-  <div id="banner">
-      <img src="../assets/logov2.png">
-    <div>
-      <span>Fizjoterapia</span>
+    <div id="banner">
+        <img src="../assets/logov2.png">
+     <div>
+        <span>Fizjoterapia</span>
+      </div>
     </div>
-  </div>
   </header>
 </template>
 

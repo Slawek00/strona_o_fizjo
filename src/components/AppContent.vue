@@ -1,5 +1,4 @@
 <template>
-  <div class = "container-fluid">
   <main role="main">
     <article>
       <h3>Czym jest fizjoterapia?</h3>
@@ -48,16 +47,26 @@
         Metodę leczenia można zastosować u dorosłych i dzieci z różnymi schorzeniami lub urazami w domu podczas rekonwalescencji.
       </p>
     </article>
+    <AppComponentCarrier/>
+    <AppMethods/>
+    <AppAboutPage/>
   </main>
-  </div>
 </template>
 
 
 
 <script>
+import AppComponentCarrier from "@/components/AppComponentCarrier.vue";
+import AppMethods from "@/components/AppMethods.vue";
+import AppAboutPage from "@/components/AppAboutPage.vue";
 
 export default {
-  name: "AppContent"
+  name: "AppContent",
+  components:{
+    AppComponentCarrier,
+    AppMethods,
+    AppAboutPage
+  }
 }
 
 </script>
@@ -74,5 +83,11 @@ export default {
 
 h3{
   font-family: Akaya;
+}
+
+AppComponentKarier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
