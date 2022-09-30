@@ -1,10 +1,12 @@
 <template>
   <header>
     <div id="banner">
-        <img src="../assets/logov2.png">
-     <div>
+        <img src="../assets/logov2.png" alt="Logo">
+
+      <div>
         <span>Fizjoterapia</span>
-      </div>
+     </div>
+
     </div>
   </header>
 </template>
@@ -14,9 +16,11 @@
 export default {
   name: "AppBanner"
 }
+
 </script>
 
 <style scoped>
+
 @font-face {
   font-family: "PermanentMarker";
   src: local("PermanentMarker"),

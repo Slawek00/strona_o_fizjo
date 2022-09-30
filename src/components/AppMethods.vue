@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <h3>Najpopularniejsze metody leczenia</h3>
     <p>
       Ćwiczenia czynne i bierne są stosowane w leczeniu urazów i schorzeń układu mięśniowo-szkieletowego.
@@ -28,16 +29,20 @@
       Fizjoterapia sprawdziła się w leczeniu różnych schorzeń, takich jak ból pleców, kontuzje sportowe, a nawet zaburzenia psychiczne, takie jak depresja poporodowa!
       Jakie inne metody leczenia nie zostały jeszcze odkryte?
     </p>
+
   </div>
 </template>
 
 <script>
+
 export default {
   name: "AppMethods"
 }
+
 </script>
 
 <style scoped>
+
 @font-face {
   font-family: "Akaya";
   src: local("AkayaTelivigala"),
@@ -47,4 +52,5 @@ export default {
 h3{
   font-family: Akaya;
 }
+
 </style>

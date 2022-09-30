@@ -1,4 +1,5 @@
 <template>
+
     <nav class = "navbar navbar-expand-lg navbar-light bg-success bg-gradient sticky-top">
       <div class="container-fluid">
         <h2 href="#" class = "navbar-brand text-white">Fizjoterapia</h2>
@@ -15,6 +16,7 @@
         </div>
       </div>
     </nav>
+
 </template>
 
 
