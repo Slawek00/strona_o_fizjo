@@ -8,10 +8,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav ms-auto head" >
-            <li class="nav-item"><a class="nav-link" href="#">Czym jest fizjoterapia?</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Kariera zawodowa</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Najpopularniejsze metody leczenia</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">O stronie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#what-it-is">Czym jest fizjoterapia?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#carrier">Kariera zawodowa</a></li>
+            <li class="nav-item"><a class="nav-link" href="#popular-practice">Najpopularniejsze metody leczenia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about-page">O stronie</a></li>
           </ul>
         </div>
       </div>
@@ -48,5 +48,6 @@ export default {
 .container-fluid a:hover{
   color: whitesmoke;
 }
+
 
 </style>

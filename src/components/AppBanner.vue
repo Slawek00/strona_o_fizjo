@@ -1,5 +1,4 @@
 <template>
-  <header>
     <div id="banner">
         <img src="../assets/logov2.png" alt="Logo">
 
@@ -8,7 +7,6 @@
      </div>
 
     </div>
-  </header>
 </template>
 
 <script>

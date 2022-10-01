@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="about-page">
     <h3>O stronie</h3>
     <article>
 
@@ -12,11 +12,15 @@
       Większość tekstu została wygenerowana przez generator tekstu <a href="https://smodin.io/pl/pisarz">smodin</a>.
       Ikony Githuba oraz Linkedin pochodzą z strony <a href="https://fontawesome.com/icons">fontawesome</a>.
       Niestandardowe czcionki pochodzą z strony <a href="https://fonts.google.com/">google fonts</a>.
-      Zdjęcia pochodzą ze <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/fizjoterapia">stocku</a>.
+      Zdjęcia pochodzą ze <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/fizjoterapia">stocku</a>. Ze względu na
+      licencje podaję wykaz zdjęć użytych na stronie.
       <br>Wykaz zdjęć użytych na stronie:
 
       <ul>
         <li>3377382.jpg autorstwa strony Freepik,</li>
+        <li>15880.jpg obraz autorstwa macrovector na Freepik</li>
+        <li>front-view-of-woman-having-neck-pain.jpg autrostwa strony Freepik</li>
+        <li>woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg autorstwa strony Freepik</li>
       </ul>
 
     </article>
@@ -39,7 +43,13 @@ export default {
   url(../fonts/AkayaTelivigala-Regular.ttf) format("truetype");
 }
 
+#about-page{
+  padding-bottom: 60px;
+}
+
 h3{
+  padding-top: 60px;
+  text-align: center;
   font-family: Akaya;
 }
 

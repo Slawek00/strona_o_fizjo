@@ -1,5 +1,5 @@
 <template>
-  <main role="main">
+  <div id="what-it-is">
     <article>
 
       <h3>Czym jest fizjoterapia?</h3>
@@ -8,7 +8,9 @@
         Fizjoterapia odbywa się w szpitalach i ośrodkach rehabilitacyjnych i polega na stosowaniu środków fizycznych na organizm ludzki w celu poprawy zdrowia,
         ruchu i funkcji. Niektórzy pacjenci decydują się na fizjoterapię w domu podczas rekonwalescencji.
       </p>
-
+      <div class="d-flex justify-content-center">
+        <img src="../photo/15880.jpg" height="500" width="500">
+      </div>
       <h3>Jak wykonuje się fizjoterapie</h3>
       <p>
         Fizjoterapia jest wykorzystywana do pomocy ludziom w powrocie do zdrowia po urazach i chorobach poprzez manipulowanie uszkodzonymi lub chorymi obszarami ciała.
@@ -37,6 +39,9 @@
         Po leczeniu urazu lub choroby pacjenci mogą przechodzić regularne sesje fizjoterapii na zalecenie lekarza, aby zachować zdrowie.
       </p>
 
+      <div class="d-flex justify-content-center">
+        <img src="../photo/front-view-of-woman-having-neck-pain.jpg" height="500" width="500">
+      </div>
       <h3>Przyczyny zabiegów</h3>
       <p>
         Według National Center for Complementary and Integrative Health (NCCIH),
@@ -56,7 +61,7 @@
     <AppComponentCarrier/>
     <AppMethods/>
     <AppAboutPage/>
-  </main>
+  </div>
 </template>
 
 
@@ -88,6 +93,8 @@ export default {
 }
 
 h3{
+  padding-top: 60px;
+  text-align: center;
   font-family: Akaya;
 }
 

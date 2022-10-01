@@ -1,6 +1,6 @@
 <template>
-  <div>
-
+  <div id="popular-practice">
+    <article>
     <h3>Najpopularniejsze metody leczenia</h3>
     <p>
       Ćwiczenia czynne i bierne są stosowane w leczeniu urazów i schorzeń układu mięśniowo-szkieletowego.
@@ -19,6 +19,9 @@
       - Wzmocnienie mięśni- Twoje mięśnie kontrolują ruchy ciała; ich wzmocnienie poprawia twoje możliwości fizyczne.
       Ćwiczenia takie jak opaski oporowe lub ciężarki wzmacniają mięśnie bez nadmiernego ich obciążania.
     </p>
+      <div class="d-flex justify-content-center">
+        <img src="../photo/woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg" height="500" width="500">
+      </div>
     <p>
       Zabiegi są stosowane w celu pomocy pacjentom z zaburzeniami psychicznymi.
       Elektroterapia (przy użyciu energii elektrycznej) jest stosowana w leczeniu różnych stanów, takich jak bezsenność, bóle mięśniowe, żółtaczka, schorzenia chirurgiczne i inne.
@@ -29,7 +32,7 @@
       Fizjoterapia sprawdziła się w leczeniu różnych schorzeń, takich jak ból pleców, kontuzje sportowe, a nawet zaburzenia psychiczne, takie jak depresja poporodowa!
       Jakie inne metody leczenia nie zostały jeszcze odkryte?
     </p>
-
+    </article>
   </div>
 </template>
 
@@ -51,6 +54,19 @@ export default {
 
 h3{
   font-family: Akaya;
+  text-align: center;
+}
+
+#popular-practice{
+  padding-top: 60px;
+}
+
+#popular-practice p:first-child{
+  padding-bottom: 60px;
+}
+
+#popular-practice p:last-child{
+  padding-top: 60px;
 }
 
 </style>

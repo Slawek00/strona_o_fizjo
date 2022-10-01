@@ -1,11 +1,11 @@
 <template>
-  <div class="d-flex justify-content-center">
+  <div id="carrier" class="d-flex justify-content-center">
     <div id="container">
       <div class="d-flex justify-content-center ">
 
         <table>
           <tr>
-            <td rowspan="2"><img src="../photo/3377382.jpg"></td>
+            <td rowspan="2"><img src="../photo/3377382.jpg" alt="Obraz"></td>
             <td>
 
               <h2>Kariera zawodowa</h2>
@@ -38,7 +38,8 @@
 <script>
 
 export default {
-  name: "AppComponentKarier"
+  name: "AppComponentKarier",
+  methods:{}
 }
 
 </script>
