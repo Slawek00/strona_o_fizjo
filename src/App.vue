@@ -6,6 +6,9 @@
       <AppComponentCarrier/>
       <AppMethods/>
       <AppAboutPage/>
+      <AppAboutVue/>
+      <AppListImage/>
+      <AppAboutBootstrap/>
       <AppFooter/>
   </div>
 </template>
@@ -18,6 +21,9 @@ import AppFooter from "@/components/AppFooter.vue";
 import AppComponentCarrier from "@/components/AppComponentCarrier.vue";
 import AppMethods from "@/components/AppMethods.vue";
 import AppAboutPage from "@/components/AppAboutPage.vue";
+import AppAboutVue from "@/components/AppAboutVue.vue";
+import AppListImage from "@/components/AppListImage.vue";
+import AppAboutBootstrap from "@/components/AppAboutBootstrap.vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 
@@ -30,7 +36,10 @@ export default {
     AppComponentCarrier,
     AppMethods,
     AppAboutPage,
-    AppFooter,
+    AppAboutVue,
+    AppListImage,
+    AppAboutBootstrap,
+    AppFooter
   }
 }
 

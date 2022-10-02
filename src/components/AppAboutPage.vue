@@ -16,16 +16,6 @@
       Niestandardowe czcionki pochodzą z strony <a href="https://fonts.google.com/">google fonts</a>.
       Zdjęcia pochodzą ze <a href="https://pl.freepik.com/darmowe-zdjecie-wektory/fizjoterapia">stocku</a>. Ze względu na
       licencje podaję wykaz zdjęć użytych na stronie.
-      <br>Wykaz zdjęć użytych na stronie:
-
-      <ul>
-        <li>3377382.jpg autorstwa strony Freepik,</li>
-        <li>15880.jpg autorstwa macrovector na Freepik</li>
-        <li>front-view-of-woman-having-neck-pain.jpg autrostwa strony Freepik</li>
-        <li>woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg autorstwa strony Freepik</li>
-        <li>hospital-room-interior.jpg autorstwa wirestock na Freepik</li>
-      </ul>
-
     </article>
     </div>
     <div class="box-ad"></div>
