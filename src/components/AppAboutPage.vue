@@ -1,5 +1,7 @@
 <template>
   <div id="about-page">
+    <div class="box-ad"></div>
+    <div id="main-content">
     <h3>O stronie</h3>
     <article>
 
@@ -18,12 +20,15 @@
 
       <ul>
         <li>3377382.jpg autorstwa strony Freepik,</li>
-        <li>15880.jpg obraz autorstwa macrovector na Freepik</li>
+        <li>15880.jpg autorstwa macrovector na Freepik</li>
         <li>front-view-of-woman-having-neck-pain.jpg autrostwa strony Freepik</li>
         <li>woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg autorstwa strony Freepik</li>
+        <li>hospital-room-interior.jpg autorstwa wirestock na Freepik</li>
       </ul>
 
     </article>
+    </div>
+    <div class="box-ad"></div>
   </div>
 </template>
 
@@ -45,6 +50,16 @@ export default {
 
 #about-page{
   padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-ad{
+  width: 15%;
+}
+
+#main-content{
+  width: 70%;
 }
 
 h3{

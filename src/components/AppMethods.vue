@@ -1,5 +1,7 @@
 <template>
   <div id="popular-practice">
+    <div class="box-ad"></div>
+    <div id="main-content">
     <article>
     <h3>Najpopularniejsze metody leczenia</h3>
     <p>
@@ -20,7 +22,7 @@
       Ćwiczenia takie jak opaski oporowe lub ciężarki wzmacniają mięśnie bez nadmiernego ich obciążania.
     </p>
       <div class="d-flex justify-content-center">
-        <img src="../photo/woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg" height="500" width="500">
+        <img src="../photo/woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg">
       </div>
     <p>
       Zabiegi są stosowane w celu pomocy pacjentom z zaburzeniami psychicznymi.
@@ -33,6 +35,8 @@
       Jakie inne metody leczenia nie zostały jeszcze odkryte?
     </p>
     </article>
+    </div>
+    <div class="box-ad"></div>
   </div>
 </template>
 
@@ -59,6 +63,21 @@ h3{
 
 #popular-practice{
   padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 100%;
+  height: 500px;
+}
+
+.box-ad{
+  width: 15%;
+}
+
+#main-content{
+  width: 70%;
 }
 
 #popular-practice p:first-child{

@@ -1,5 +1,7 @@
 <template>
   <div id="what-it-is">
+    <div class="box-ad"></div>
+    <div id="main-content">
     <article>
 
       <h3>Czym jest fizjoterapia?</h3>
@@ -29,7 +31,9 @@
         takich jak taśmy oporowe i temblaki.
         Sesje trwają zwykle od 45 minut do 1 godziny dziennie i można je wykonywać trzy razy dziennie.
       </p>
-
+      <div class="d-flex justify-content-center">
+        <img src="../photo/hospital-room-interior.jpg">
+      </div>
       <h3>Narzędzia do fizjoterapii</h3>
       <p>
         Fizjoterapeuci używają różnych narzędzi, takich jak temblaki,
@@ -38,10 +42,6 @@
         Praktycy zalecają również spożywanie pożywnego jedzenia, utrzymywanie odpowiedniego nawodnienia, zasypianie na czas i ograniczanie stresu w celu poprawy zdrowia pacjenta.
         Po leczeniu urazu lub choroby pacjenci mogą przechodzić regularne sesje fizjoterapii na zalecenie lekarza, aby zachować zdrowie.
       </p>
-
-      <div class="d-flex justify-content-center">
-        <img src="../photo/front-view-of-woman-having-neck-pain.jpg" height="500" width="500">
-      </div>
       <h3>Przyczyny zabiegów</h3>
       <p>
         Według National Center for Complementary and Integrative Health (NCCIH),
@@ -50,6 +50,9 @@
         Oprócz leczenia dolegliwości fizycznych w placówkach opieki zdrowotnej, niektórzy ludzie decydują się na fizjoterapię po urazie lub chorobie, aby mogli szybciej się goić przy mniejszym bólu i zmęczeniu.
         Istnieją również kliniki, które specjalizują się w regeneracji po kontuzji sportowców, aby szybciej wrócić do formy.
       </p>
+      <div class="d-flex justify-content-center">
+        <img src="../photo/front-view-of-woman-having-neck-pain.jpg">
+      </div>
       <p>
         Fizjoterapia to skuteczna metoda leczenia, która pomaga wyzdrowieć po urazach i chorobach.
         Pacjenci otrzymują leczenie od fizjoterapeutów po specjalistycznym szkoleniu;
@@ -58,26 +61,17 @@
       </p>
 
     </article>
-    <AppComponentCarrier/>
-    <AppMethods/>
-    <AppAboutPage/>
+    </div>
+    <div class="box-ad"></div>
   </div>
 </template>
 
 
 
 <script>
-import AppComponentCarrier from "@/components/AppComponentCarrier.vue";
-import AppMethods from "@/components/AppMethods.vue";
-import AppAboutPage from "@/components/AppAboutPage.vue";
 
 export default {
   name: "AppContent",
-  components:{
-    AppComponentCarrier,
-    AppMethods,
-    AppAboutPage
-  }
 }
 
 </script>
@@ -90,6 +84,24 @@ export default {
   font-family: "Akaya";
   src: local("AkayaTelivigala"),
   url(../fonts/AkayaTelivigala-Regular.ttf) format("truetype");
+}
+
+#what-it-is{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-ad{
+  width: 15%;
+}
+
+#main-content{
+  width: 70%;
+}
+
+img{
+  width: 100%;
+  height: 500px;
 }
 
 h3{
