@@ -21,8 +21,8 @@
       - Wzmocnienie mięśni- Twoje mięśnie kontrolują ruchy ciała; ich wzmocnienie poprawia twoje możliwości fizyczne.
       Ćwiczenia takie jak opaski oporowe lub ciężarki wzmacniają mięśnie bez nadmiernego ich obciążania.
     </p>
-      <div class="d-flex justify-content-center">
-        <img src="../photo/woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg">
+      <div class="d-flex justify-content-center" data-aos="fade-left">
+        <img src="../photo/woman-getting-massage-from-physiotherapist-with-ball-on-neck.jpg" alt="obraz">
       </div>
     <p>
       Zabiegi są stosowane w celu pomocy pacjentom z zaburzeniami psychicznymi.

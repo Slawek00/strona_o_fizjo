@@ -1,6 +1,6 @@
 <template>
 <div id="about-bootstrap" class="d-flex justify-content-center">
-  <div id="container-aboutB">
+  <div id="container-aboutB" data-aos="zoom-in-down">
   <div class="d-flex justify-content-center ">
 
     <table>

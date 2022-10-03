@@ -10,8 +10,8 @@
         Fizjoterapia odbywa się w szpitalach i ośrodkach rehabilitacyjnych i polega na stosowaniu środków fizycznych na organizm ludzki w celu poprawy zdrowia,
         ruchu i funkcji. Niektórzy pacjenci decydują się na fizjoterapię w domu podczas rekonwalescencji.
       </p>
-      <div class="d-flex justify-content-center">
-        <img src="../photo/15880.jpg" height="500" width="500">
+      <div class="d-flex justify-content-center" data-aos="fade-left">
+        <img src="../photo/15880.jpg" alt="obraz">
       </div>
       <h3>Jak wykonuje się fizjoterapie</h3>
       <p>
@@ -31,8 +31,8 @@
         takich jak taśmy oporowe i temblaki.
         Sesje trwają zwykle od 45 minut do 1 godziny dziennie i można je wykonywać trzy razy dziennie.
       </p>
-      <div class="d-flex justify-content-center">
-        <img src="../photo/hospital-room-interior.jpg">
+      <div class="d-flex justify-content-center" data-aos="fade-left">
+        <img src="../photo/hospital-room-interior.jpg" alt="obraz">
       </div>
       <h3>Narzędzia do fizjoterapii</h3>
       <p>
@@ -50,8 +50,8 @@
         Oprócz leczenia dolegliwości fizycznych w placówkach opieki zdrowotnej, niektórzy ludzie decydują się na fizjoterapię po urazie lub chorobie, aby mogli szybciej się goić przy mniejszym bólu i zmęczeniu.
         Istnieją również kliniki, które specjalizują się w regeneracji po kontuzji sportowców, aby szybciej wrócić do formy.
       </p>
-      <div class="d-flex justify-content-center">
-        <img src="../photo/front-view-of-woman-having-neck-pain.jpg">
+      <div class="d-flex justify-content-center" data-aos="fade-left">
+        <img src="../photo/front-view-of-woman-having-neck-pain.jpg" alt="obraz">
       </div>
       <p>
         Fizjoterapia to skuteczna metoda leczenia, która pomaga wyzdrowieć po urazach i chorobach.

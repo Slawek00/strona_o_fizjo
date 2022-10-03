@@ -1,6 +1,6 @@
 <template>
   <div id="carrier" class="d-flex justify-content-center">
-    <div id="container">
+    <div id="container" data-aos="zoom-in-down">
       <div class="d-flex justify-content-center ">
 
         <table>
@@ -35,11 +35,11 @@
   </div>
 </template>
 
-<script>
 
+<script>
 export default {
   name: "AppComponentKarier",
-  methods:{}
+
 }
 
 </script>

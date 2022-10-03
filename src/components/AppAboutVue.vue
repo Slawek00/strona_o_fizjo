@@ -1,6 +1,6 @@
 <template>
 <div id="about-vue" class="d-flex justify-content-center">
-  <div id="container-aboutV">
+  <div id="container-aboutV" data-aos="zoom-in-down">
     <div class="d-flex justify-content-center ">
 
       <table>
